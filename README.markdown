@@ -3,10 +3,10 @@
 
 ## Usage
 ```bash
-echo "two words" | markovmotron --corpus="corpus.txt"
+echo "two words" | markovmotron --corpus="sample/corpus.txt"
 
 #  option:
-#    --corpus     a single line file or ordered sentances
+#    --corpus     a single line file of ordered sentances
 #    --words      how many words to output
 #    --prefix     how many history words the Markov should use to find the next word
 #    --react-to   something for the Markov to respond to, defaults to standard in
